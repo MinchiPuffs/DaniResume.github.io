@@ -1,0 +1,181 @@
+body {
+  display: block;
+  overflow-x: hidden;
+  background-color: #fbbb30;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+.navbar-brand {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #432e22;
+}
+nav ul li a {
+  color: #a9a9a9;
+  font-size: 22px;
+  margin: auto 10px;
+}
+nav ul li a:hover {
+  color: #c34a34;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+section h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #683aa4;
+  text-align: left;
+  margin-bottom: 20px;
+}
+section p {
+  font-size: 16px;
+  font-weight: 300;
+}
+button {
+  max-width: 50%;
+  border-radius: 50px !important;
+}
+#hero .col {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+#hero .img-col {
+  justify-content: flex-end;
+  margin-top: 100px;
+}
+#hero img {
+  max-width: 130% !important;
+  width: 130%;
+}
+#hero .card {
+  box-shadow: 8px 7px 5px #624141;
+  border: 0;
+  text-align: center;
+}
+#hero .icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+#projects .projects {
+  margin-bottom: 50px;
+}
+#contact {
+  text-align: center;
+  background-color: #683aa4;
+  color: white;
+}
+#contact h1 {
+  text-align: center;
+  color: white;
+}
+ img{
+  max-width: 100%;
+ }
+
+  .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #793f51;
+    border: 2px solid #7c151f;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.container .left{
+  position: relative;
+  background-color: rgb(173, 216, 100);
+  padding: 40px;
+}
+
+.ptext{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom:20px;
+  border-bottom: 1px solid rgb(31, 31, 31);
+}
+
+.ptext .imgbox{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow:hidden;
+}
+
+.ptext .imgbox img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.ptext h2{
+  color: #580a61;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.ptext h2 span{
+  font-size: 0.8em;
+  font-weight: 300;
+  background-color: rgb(238, 212, 230);
+  border-radius: 0.5em;
+}
+.education li
+{
+    margin-bottom: 15px ;
+    list-style-type: none;
+}
+
+.education h5{
+    color: #49266b;
+    font-weight: 500;
+}
+
+.education h4{
+    color: #284a9f;
+    font-weight: 400;
+}
+
+.languages .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #ece4ff;
+    display: block;
+    margin-top: 5px;
+}
+
+.languages .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #a686f3;
+}
+.languages li{
+    list-style-type: none;
+}
