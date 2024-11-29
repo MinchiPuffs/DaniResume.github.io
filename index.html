@@ -1,0 +1,111 @@
+<html>
+    <html lang="en">
+        <head>
+            <title>Login Page</title>
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link rel="stylehseet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+            <link href="https //fonts.googleapis.com/css family=poppins"></link>
+        <script type="text/javascript">
+            function Redirect()
+            {
+                window.location ="home.html"
+            }
+        </script>
+        <script type="text/javascript" src="script.js"></script>
+        <style media ="screen">
+            *,
+    *:before,
+    *:after{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+        
+    }
+    body{
+        background-color: #fbbb30;
+    }
+    .background{
+        width: 430px;
+        height: 520px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+    }
+    form{
+        height: 520px;
+        width: 400px;
+        background-color: #402816;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        border-radius: 10px;
+        border: 2px solid rgb(114, 78, 136);
+        box-shadow: 0 0 20px rgb(73, 48, 88);
+        padding: 50px 35px;
+    }
+        form *{
+            font-family: 'Poppins', sans-serif;
+            color: aliceblue;
+            letter-spacing: 0.5px;
+            outline: none;
+            border: none;
+        }
+        form h3{
+            font-size: 30px;
+            font-weight: 500px;
+            line-height: 40px;
+            text-align: center;
+        }
+        label{
+            display: block;
+            margin-top: 30px;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        input{
+            display: block;
+            height: 50px;
+            width: 100%;
+            background-color: rgb(142, 140, 140);
+            border-radius: 3px;
+            padding: 0 10px;
+            margin-top: 8px;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        ::placeholder{
+            color: aliceblue;
+        }
+        button{
+            margin-top: 50px;
+            width: 100%;
+            background-color: white;
+            color: rgb(46, 24, 57);
+            padding: 15px 0;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .social{
+            margin-top: 30px;
+            display: flex;
+        }
+        </style>
+        </head>
+        <body>
+            <div class="background"></div>
+            <form>
+                <h3>Login</h3>
+                <label for="username">Username</label>
+                <input type="email" placeholder="user@gmail.com" id="username" required>
+
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" id="password" required>
+
+                <button type="submit" onclick="Redirect()">Log in</button>
+            </form>
+
+</html>
